@@ -1,12 +1,5 @@
-
-import './App.css'
-function App() {
-  
-  return (
-    <h1>
-      DesafioGithubAPI
-    </h1>
-    
-  );
+import "./App.css";
+import Home from "./routes/Home";
+export default function App() {
+  return <Home />;
 }
-export default App

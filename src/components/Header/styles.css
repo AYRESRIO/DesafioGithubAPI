@@ -1,0 +1,11 @@
+header {
+  background-color: var(--dga-color-bg-primary);
+  width: 100%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+nav {
+  color: var(--dga-color-font-primary);
+  padding-left: 41px;
+}
