@@ -1,11 +1,9 @@
-import Button from "../../components/Button";
-import Header from "../../components/Header";
+import Button from "../../../components/Button";
 import "./styles.css";
 
 export default function Home() {
   return (
     <>
-      <Header />
       <main>
         <div className="dga-container">
           <section id="dga-home-section">
