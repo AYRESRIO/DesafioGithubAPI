@@ -1,0 +1,13 @@
+#dga-home-section {
+  padding: 27px 0;
+}
+
+.dga-title-home {
+  color: var(--dga-color-font-secondary);
+  padding-left: 41px;
+}
+
+.dga-escola {
+  color: var(--dga-color-font-tertiary);
+  padding-left: 41px;
+}
