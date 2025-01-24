@@ -1,0 +1,30 @@
+
+.dga-input-form-control {
+    background-color: var( --dga-color-bg-secondary); 
+    border: 1px solid var(--dga-color-font-placeholder);
+    height: 40px;
+    width: 298px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding-left:17px;
+}
+
+.dga-input-form-control::placeholder {
+    color: var(--dga-color-font-placeholder);
+}
+
+.dga-input-form-control:focus {
+    outline: none;
+}
+
+@media(max-width:330px){
+    .dga-input-form-control {
+        
+        width: 148px;
+        border-radius: 6px;
+        font-size: 16px;
+        padding-left:17px;
+    }
+    
+
+}

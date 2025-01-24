@@ -1,0 +1,36 @@
+.dga-before-space {
+    margin-top: 62px;
+  }
+  
+
+.dga-before-container {
+  background-color: var(--dga-color-bg-tertiary);
+  color: var(--dga-color-font-quaternary);
+  border-radius: 16px;
+  font-weight: 500;
+  width: 100%;
+  max-width: 1251px;
+  margin: 0 auto;
+  height: 270px;
+  
+}
+.dga-before-container h1 {
+    padding-top: 54px;
+    padding-left: 31px;
+}
+
+.dga-before-button-tab {
+   padding-top: 15px;
+}
+.dga-search-bar-container {
+    padding-top:7px;
+    padding-left: 31px;
+    border-radius: 10px;
+}
+    
+
+
+
+
+
+

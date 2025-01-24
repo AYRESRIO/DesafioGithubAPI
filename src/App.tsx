@@ -1,5 +1,6 @@
 import "./App.css";
-import Home from "./routes/Home";
+import Before from "./routes/Before";
+
 export default function App() {
-  return <Home />;
+  return <Before/>;
 }
