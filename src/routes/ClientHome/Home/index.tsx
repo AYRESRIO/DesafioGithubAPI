@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import "./styles.css";
 
@@ -16,7 +17,9 @@ export default function Home() {
           </section>
         </div>
         <div>
-          <Button name="Começar" />
+          <Link to="before">
+            <Button name="Começar" />
+          </Link>
         </div>
       </main>
     </>
