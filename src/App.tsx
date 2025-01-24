@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import ClientHome from "./routes/ClientHome";
 import Home from "./routes/ClientHome/Home";
@@ -12,6 +12,7 @@ export default function App() {
           <Route index element={<Home />}></Route>
           <Route path="home" element={<Home />}></Route>
           <Route path="before" element={<Before />}></Route>
+          <Route path="*" element={<Navigate to="/" />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

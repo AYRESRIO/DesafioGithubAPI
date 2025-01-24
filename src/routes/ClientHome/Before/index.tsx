@@ -1,6 +1,7 @@
 import "./styles.css";
 import Button from "../../../components/Button";
 import SearchBar from "../../../components/SearchBar";
+import { Link } from "react-router-dom";
 
 export default function Before() {
   return (
@@ -14,7 +15,9 @@ export default function Before() {
             <SearchBar />
           </div>
           <div className="dga-before-button-tab">
-            <Button name="Encontrar" />
+            <Link to="https://api.github.com/users/acenelio">
+              <Button name="Encontrar" />
+            </Link>
           </div>
         </div>
       </main>
