@@ -16,7 +16,7 @@ export default function Before() {
                 <SearchBar/>
             </div>
             <div className="dga-before-button-tab">
-                <Button/>
+                <Button name="Encontrar"/>
             </div>
         </div>
       </main>

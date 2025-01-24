@@ -18,7 +18,7 @@ export default function Home() {
           </section>
         </div>
         <div>
-          <Button />
+          <Button name="Começar" />
         </div>
       </main>
     </>

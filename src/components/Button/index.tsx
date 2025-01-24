@@ -1,5 +1,9 @@
 import "./styles.css";
 
-export default function Button() {
-  return <div className="dga-button">Começar</div>;
+type Props = {
+  name: string;
+};
+
+export default function Button({ name }: Props) {
+  return <div className="dga-button">{name}</div>;
 }
