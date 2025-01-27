@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <main>
-        <div className="dga-container">
+        <div >
           <section id="dga-home-section">
             <div className="dga-title-home">
               <h1>Desafio Github API</h1>
@@ -17,7 +17,7 @@ export default function Home() {
           </section>
         </div>
         <div>
-          <Link to="before">
+          <Link to="/before">
             <Button name="Começar" />
           </Link>
         </div>
