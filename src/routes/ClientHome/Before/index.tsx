@@ -1,18 +1,7 @@
 import "./styles.css";
 import Button from "../../../components/Button";
 import SearchBar from "../../../components/SearchBar";
-import { Link } from "react-router-dom";
-import After from "../After";
-import { userDTO } from "../../../models/user";
-
-const perfil: userDTO = {
-  id: 13897257,
-  name: "Nelio Alves",
-  imgUrl: "https://avatars.githubusercontent.com/u/13897257?v=4",
-  url: "https://api.github.com/users/acenelio",
-  followers: 12408,
-  location: "Brazil",
-};
+import { Link, Outlet } from "react-router-dom";
 
 
 export default function Before() {
@@ -27,18 +16,15 @@ export default function Before() {
             <div className="dga-search-bar-container">
               <SearchBar />
             </div>
-
             <div className="dga-before-button-tab">
-              <Link to="/after">
+              <Link to="after">
                 <Button name="Encontrar" />
               </Link>
             </div>
           </div>
         </section>
       </main>
-  
+      <Outlet/>
     </>
   );
-  <After perfil={perfil}/>
-  
 }
