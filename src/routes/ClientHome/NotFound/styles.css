@@ -1,0 +1,9 @@
+.dga-not-found {
+  width: 100%;
+  max-width: 1251px;
+  height: 250px;
+  margin: 0 auto;
+  padding-top: 60px;
+  color:var( --dga-color-font-quaternary);
+  font-size: 15px;
+}

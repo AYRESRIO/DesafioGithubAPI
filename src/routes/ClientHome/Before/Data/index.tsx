@@ -1,4 +1,4 @@
-import { UserDTO } from "../../../models/user";
+import { UserDTO } from "../../../../models/user";
 
 import "./styles.css";
 

@@ -1,6 +1,6 @@
 
 
-import { UserDTO } from "../../../models/user";
+import { UserDTO } from "../../../../models/user";
 import Data from "../Data";
 
 const perfil: UserDTO = {
@@ -12,10 +12,23 @@ const perfil: UserDTO = {
   location: "Brazil",
 };
 
+//const users = getUsers();
+
+//export default function After() {
+  //return (
+   // <>
+   //  users.map(perfis  => <Data key={perfis.id} perfis={perfis}/>);
+
+   // </>
+  //);
+ 
+//}
+
 export default function After() {
   return (
     <>
-    <Data perfil={perfil}/>
+     <Data perfil={perfil}/>
+    
     </>
   );
  
