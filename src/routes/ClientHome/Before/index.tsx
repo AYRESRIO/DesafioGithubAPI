@@ -17,7 +17,7 @@ export default function Before() {
               <SearchBar />
             </div>
             <div className="dga-before-button-tab">
-              <Link to="after">
+              <Link to="after/:userId">
                 <Button name="Encontrar" />
               </Link>
             </div>

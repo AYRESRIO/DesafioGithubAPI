@@ -14,7 +14,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="before" element={<Before />}>
-            <Route path="after" element={<After />} />
+            <Route path="after/:userId" element={<After />} />
             <Route path="data" element={<Data />} />
           </Route>
           <Route path="*" element={<NotFound />} />

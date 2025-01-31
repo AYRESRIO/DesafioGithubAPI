@@ -1,7 +1,7 @@
 export type UserDTO = {
     id: number;
     name: string;
-    imgUrl: string;
+    avatar_url: string;
     url: string;
     followers: number;
     location: string;

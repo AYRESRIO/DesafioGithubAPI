@@ -13,7 +13,7 @@ export default function Data({ perfil }: Props) {
           <div className="dga-foto-dados">
             <div className="dga-result">
               <div className="dga-total-img">
-                <img src={perfil.imgUrl} alt={perfil.name} />
+                <img src={perfil.avatar_url} alt={perfil.name} />
               </div>
               <div className="dga-total-rectangle">
                 <div>

@@ -1,35 +1,16 @@
-
-
+import { useEffect, useState } from "react";
 import { UserDTO } from "../../../../models/user";
+import axios from "axios";
 import Data from "../Data";
 
-const perfil: UserDTO = {
-  id: 13897257,
-  name: "Nelio Alves",
-  imgUrl: "https://avatars.githubusercontent.com/u/13897257?v=4",
-  url: "https://api.github.com/users/acenelio",
-  followers: 12408,
-  location: "Brazil",
-};
-
-//const users = getUsers();
-
-//export default function After() {
-  //return (
-   // <>
-   //  users.map(perfis  => <Data key={perfis.id} perfis={perfis}/>);
-
-   // </>
-  //);
- 
-//}
-
 export default function After() {
-  return (
-    <>
-     <Data perfil={perfil}/>
-    
-    </>
-  );
- 
+  //const params = useParams();
+  const [perfil, setPerfil] = useState<UserDTO>();
+  useEffect(() => {
+    axios.get("https://api.github.com/users/acenelio").then((response) => {
+      setPerfil(response.data);
+    });
+  }, []);
+
+  return perfil && <Data perfil={perfil} />;
 }
