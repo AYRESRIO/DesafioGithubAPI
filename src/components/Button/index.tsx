@@ -1,9 +1,16 @@
 import "./styles.css";
 
-type Props = {
+type Props={
   name: string;
-};
+}
 
 export default function Button({ name }: Props) {
-  return <div className="dga-button">{name}</div>;
+  
+  return (
+    <>
+      <div >
+        <button className= "dga-button" type="submit">{name} </button>
+      </div>
+    </>
+  );
 }

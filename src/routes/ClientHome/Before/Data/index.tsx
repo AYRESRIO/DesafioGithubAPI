@@ -7,7 +7,6 @@ type Props = { perfil: UserDTO };
 export default function Data({ perfil }: Props) {
   return (
     <>
-     
       <main>
         <section id="dga-data-section-container">
           <div className="dga-foto-dados">
