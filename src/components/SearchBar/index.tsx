@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./styles.css";
 import { useNavigate } from "react-router-dom";
 import Button from "../Button";
-import { Link } from "react-router-dom";
 
 type FormData = {
   userName: string;
@@ -35,10 +34,8 @@ export default function SearchBar() {
           placeholder="Usuário GitHub"
           onChange={handleInputChange}
         />
-        <div className="dga form-button">
-         
-         <Button name="Encontrar" />
-         
+        <div>
+          <Button name="Encontrar" />
         </div>
       </form>
     </>
